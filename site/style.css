@@ -1,3 +1,7 @@
+* {
+    --color-blue: rgba(119, 119, 231, 0.555);
+}
+
 h1 {
     color: red;
 }
@@ -24,4 +28,8 @@ li:hover {
     transition: 3s;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     background-color: #fff;
+}
+
+body {
+    background-color: var(--color-blue);
 }
